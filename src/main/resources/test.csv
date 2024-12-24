@@ -1,0 +1,4 @@
+ID,Name,ParentID
+1001,HR,ROOT
+1002,IT,1001
+1003,Finance,1001

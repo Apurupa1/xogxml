@@ -1,0 +1,13 @@
+<NikuDataBus xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='xog.xsd'>
+  <Header action='write' externalSource='NIKU' objectType='department' version='15.9'>
+    <Security>
+      <Username>clarityadmin</Username>
+      <Password>claritypassword</Password>
+    </Security>
+  </Header>
+  <Departments>
+    <Department id='1001' name='HR' parentID='ROOT' />
+    <Department id='1002' name='IT' parentID='1001' />
+    <Department id='1003' name='Finance' parentID='1001' />
+  </Departments>
+</NikuDataBus>

@@ -111,7 +111,11 @@ class CSVToXOGXMLService {
             Departments {
                 def departmentsByParentCode = departmentData.groupBy { it.parent_department_code }
 
-                departmentData.findAll { it.parent_department_code == "" || it.parent_department_code == "Root" }.each { rootDept ->
+                // Identify root departments: those without a parent or explicitly marked as root
+                departmentData.findAll {
+                    it.parent_department_code in ["", "Root"] ||
+                            !departmentData.any { dept -> dept.department_code == it.parent_department_code }
+                }.each { rootDept ->
                     createDepartment(xml, rootDept, departmentsByParentCode)
                 }
             }
@@ -119,6 +123,7 @@ class CSVToXOGXMLService {
         logger.info("XOG XML generation completed")
         return writer.toString()
     }
+
 
     private void createDepartment(MarkupBuilder xml, Department dept, Map departmentsByParentCode) {
         logger.info("Generating XML for department: {}", dept.department_code)

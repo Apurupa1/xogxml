@@ -12,6 +12,60 @@
           <LocationAssociation locationcode='DE' />
         </LocationAssociations>
       </Department>
+      <Department department_code='CCM' dept_manager_code='admin' entity='Corporate' short_description='Corporate Communications'>
+        <Description>Corporate Communications</Description>
+        <LocationAssociations>
+          <LocationAssociation locationcode='DE' />
+        </LocationAssociations>
+      </Department>
+      <Department department_code='CHR' dept_manager_code='admin' entity='Corporate' short_description='Corporate HR'>
+        <Description>Corporate HR</Description>
+        <LocationAssociations>
+          <LocationAssociation locationcode='DE' />
+        </LocationAssociations>
+      </Department>
+    </Department>
+    <Department department_code='F' dept_manager_code='admin' entity='Corporate' short_description='Finance'>
+      <Description>Finance</Description>
+      <LocationAssociations>
+        <LocationAssociation locationcode='DE' />
+      </LocationAssociations>
+      <Department department_code='FAN' dept_manager_code='admin' entity='Corporate' short_description='Corporate Accounting'>
+        <Description>Corporate Accounting</Description>
+        <LocationAssociations>
+          <LocationAssociation locationcode='DE' />
+        </LocationAssociations>
+      </Department>
+      <Department department_code='FCO' dept_manager_code='admin' entity='Corporate' short_description='Corporate Controlling'>
+        <Description>Corporate Controlling</Description>
+        <LocationAssociations>
+          <LocationAssociation locationcode='DE' />
+        </LocationAssociations>
+        <Department department_code='FCO-F' dept_manager_code='admin' entity='Corporate' short_description='Central Financial Controlling'>
+          <Description>Central Financial Controlling</Description>
+          <LocationAssociations>
+            <LocationAssociation locationcode='DE' />
+          </LocationAssociations>
+          <Department department_code='FCO-F_sub' dept_manager_code='admin' entity='Corporate' short_description='SYU'>
+            <Description>SYU</Description>
+            <LocationAssociations>
+              <LocationAssociation locationcode='DE' />
+            </LocationAssociations>
+            <Department department_code='FCO-F_sub_sub' dept_manager_code='admin' entity='Corporate' short_description='GH'>
+              <Description>GH</Description>
+              <LocationAssociations>
+                <LocationAssociation locationcode='DE' />
+              </LocationAssociations>
+              <Department department_code='FCO-F_sub_sub_sub' dept_manager_code='admin' entity='Corporate' short_description='HH'>
+                <Description>HH</Description>
+                <LocationAssociations>
+                  <LocationAssociation locationcode='DE' />
+                </LocationAssociations>
+              </Department>
+            </Department>
+          </Department>
+        </Department>
+      </Department>
     </Department>
   </Departments>
 </NikuDataBus>

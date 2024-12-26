@@ -1,91 +1,39 @@
 package org.example
-import groovy.xml.MarkupBuilder
-import java.nio.file.Files
-import java.nio.file.Paths
 
-class CSVToXOGXML {
+import org.apache.logging.log4j.LogManager
+import org.apache.logging.log4j.Logger
+import org.example.controller.CSVToXOGXMLController
+import org.example.service.CSVToXOGXMLService
+
+class Main {
+    // Logger for the Main class
+    private static final Logger logger = LogManager.getLogger(Main)
+
     static void main(String[] args) {
+        logger.info("Application started")
+
         try {
-            String csvFile = "test.csv" // File name in resources
-            File file = locateCSVFile(csvFile)
+            // Dependency Injection
+            logger.debug("Initializing CSVToXOGXMLService")
+            CSVToXOGXMLService service = new CSVToXOGXMLService()
 
-            if (!file) {
-                println "Error: File not found. Exiting."
-                return
-            }
+            logger.debug("Injecting service into CSVToXOGXMLController")
+            CSVToXOGXMLController controller = new CSVToXOGXMLController(service)
 
-            println "Reading CSV file: $file"
-            List<Map<String, String>> departmentData = parseCSV(file)
+            // Determine CSV file
+            String csvFile = args.length > 0 ? args[0] : "test.csv"
+            logger.info("Using CSV file: {}", csvFile)
 
-            if (departmentData.isEmpty()) {
-                println "No data found in CSV. Exiting."
-                return
-            }
+            // Process the CSV
+            controller.processCSV(csvFile)
+            logger.info("CSV processing completed successfully")
 
-            println "Generating XOG XML..."
-            String xogXml = generateXOGXML(departmentData)
-
-            String outputFileName = "test.xog.xml"
-            saveToFile(outputFileName, xogXml)
-
-            println "XOG XML generated and saved to $outputFileName"
         } catch (Exception e) {
-            e.printStackTrace()
+            logger.error("An unexpected error occurred", e)
         }
-    }
 
-    // Locate the CSV file in the resources folder
-    static File locateCSVFile(String csvFile) {
-        URL resourceUrl = CSVToXOGXML.class.classLoader.getResource(csvFile)
-        if (resourceUrl) {
-            File file = new File(resourceUrl.toURI())
-            if (file.exists()) {
-                return file
-            }
-        }
-        println "Error: File $csvFile not found in the resources folder."
-        return null
-    }
-
-    // Parse the CSV file into a list of maps
-    static List<Map<String, String>> parseCSV(File file) {
-        List<Map<String, String>> rows = []
-        file.withReader { reader ->
-            def lines = reader.readLines()
-            def headers = lines[0].split(",").collect { it.trim() } // First line is the header
-            lines[1..-1].each { line ->
-                def values = line.split(",").collect { it.trim() }
-                rows << [id: values[0], name: values[1], parentID: values[2]]
-            }
-        }
-        return rows
-    }
-
-    // Generate the XOG XML
-    static String generateXOGXML(List<Map<String, String>> departmentData) {
-        StringWriter writer = new StringWriter()
-        MarkupBuilder xml = new MarkupBuilder(writer)
-
-        xml.NikuDataBus('xmlns:xsi': 'http://www.w3.org/2001/XMLSchema-instance',
-                'xsi:noNamespaceSchemaLocation': 'xog.xsd') {
-            Header(action: 'write', externalSource: 'NIKU', objectType: 'department', version: '15.9') {
-                Security {
-                    Username("clarityadmin")
-                    Password("claritypassword")
-                }
-            }
-            Departments {
-                departmentData.each { dept ->
-                    Department(id: dept.id, name: dept.name, parentID: dept.parentID ?: "ROOT")
-                }
-            }
-        }
-        return writer.toString()
-    }
-
-    // Save the XML string to a file
-    static void saveToFile(String fileName, String content) {
-        Files.write(Paths.get(fileName), content.bytes)
+        logger.info("Application finished")
     }
 }
+
 

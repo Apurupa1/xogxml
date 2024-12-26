@@ -1,4 +1,3 @@
-ID,Name,ParentID
-1001,HR,ROOT
-1002,IT,1001
-1003,Finance,1001
+Ignore,	ID,	dept_manager_code,	entity,	Name,	locationcode,	ParentDepartmentID
+,C,,,Corporate,,
+,CCA,,,Corporate Compliance &amp,,C

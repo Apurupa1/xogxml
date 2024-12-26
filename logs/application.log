@@ -1,0 +1,292 @@
+2024-12-26 10:03:18 [main] INFO  org.example.controller.CSVToXOGXMLController - Starting CSV to XOG XML conversion for file: test.csv
+2024-12-26 10:03:18 [main] INFO  org.example.service.CSVToXOGXMLService - Reading CSV file: test.csv
+2024-12-26 10:03:18 [main] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2024-12-26 10:03:18 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2024-12-26 10:03:19 [main] INFO  org.example.service.CSVToXOGXMLService - Successfully read 2 departments from CSV.
+2024-12-26 10:03:19 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 10:03:19 [main] ERROR org.example.controller.CSVToXOGXMLController - An error occurred during CSV processing
+groovy.lang.MissingMethodException: No signature of method: org.example.service.CSVToXOGXMLService.createDepartment() is applicable for argument types: (groovy.xml.MarkupBuilder, org.example.model.Department, LinkedHashMap) values: [groovy.xml.MarkupBuilder@263f04ca, Department[department_code: C, dept_manager_code: admin, entity: Corporate, short_description: Corporate, locationcode: DE, parent_department_code: ], ...]
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:72) ~[groovy-4.0.14.jar:4.0.14]
+	at org.codehaus.groovy.vmplugin.v8.IndyGuardsFiltersAndSignatures.unwrap(IndyGuardsFiltersAndSignatures.java:163) ~[groovy-4.0.14.jar:4.0.14]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321) ~[groovy-4.0.14.jar:4.0.14]
+	at org.example.service.CSVToXOGXMLService$_generateXOGXML_closure2$_closure6$_closure9.doCall(CSVToXOGXMLService.groovy:74) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343) ~[groovy-4.0.14.jar:4.0.14]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328) ~[groovy-4.0.14.jar:4.0.14]
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:279) ~[groovy-4.0.14.jar:4.0.14]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1006) ~[groovy-4.0.14.jar:4.0.14]
+	at groovy.lang.Closure.call(Closure.java:433) ~[groovy-4.0.14.jar:4.0.14]
+	at groovy.lang.Closure.call(Closure.java:422) ~[groovy-4.0.14.jar:4.0.14]
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2387) ~[groovy-4.0.14.jar:4.0.14]
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2372) ~[groovy-4.0.14.jar:4.0.14]
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2413) ~[groovy-4.0.14.jar:4.0.14]
+	at org.codehaus.groovy.runtime.dgm$207.doMethodInvoke(Unknown Source) ~[groovy-4.0.14.jar:4.0.14]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321) ~[groovy-4.0.14.jar:4.0.14]
+	at org.example.service.CSVToXOGXMLService$_generateXOGXML_closure2$_closure6.doCall(CSVToXOGXMLService.groovy:73) ~[main/:?]
+	at org.example.service.CSVToXOGXMLService$_generateXOGXML_closure2$_closure6.doCall(CSVToXOGXMLService.groovy) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343) ~[groovy-4.0.14.jar:4.0.14]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328) ~[groovy-4.0.14.jar:4.0.14]
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:279) ~[groovy-4.0.14.jar:4.0.14]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1006) ~[groovy-4.0.14.jar:4.0.14]
+	at groovy.lang.Closure.call(Closure.java:433) ~[groovy-4.0.14.jar:4.0.14]
+	at groovy.lang.Closure.call(Closure.java:412) ~[groovy-4.0.14.jar:4.0.14]
+	at groovy.util.BuilderSupport.doInvokeMethod(BuilderSupport.java:154) ~[groovy-4.0.14.jar:4.0.14]
+	at groovy.util.BuilderSupport.invokeMethod(BuilderSupport.java:75) ~[groovy-4.0.14.jar:4.0.14]
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:651) ~[groovy-4.0.14.jar:4.0.14]
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:628) ~[groovy-4.0.14.jar:4.0.14]
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeOnDelegationObjects(ClosureMetaClass.java:405) ~[groovy-4.0.14.jar:4.0.14]
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:328) ~[groovy-4.0.14.jar:4.0.14]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1006) ~[groovy-4.0.14.jar:4.0.14]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321) ~[groovy-4.0.14.jar:4.0.14]
+	at org.example.service.CSVToXOGXMLService$_generateXOGXML_closure2.doCall(CSVToXOGXMLService.groovy:70) ~[main/:?]
+	at org.example.service.CSVToXOGXMLService$_generateXOGXML_closure2.doCall(CSVToXOGXMLService.groovy) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343) ~[groovy-4.0.14.jar:4.0.14]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328) ~[groovy-4.0.14.jar:4.0.14]
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:279) ~[groovy-4.0.14.jar:4.0.14]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1006) ~[groovy-4.0.14.jar:4.0.14]
+	at groovy.lang.Closure.call(Closure.java:433) ~[groovy-4.0.14.jar:4.0.14]
+	at groovy.lang.Closure.call(Closure.java:412) ~[groovy-4.0.14.jar:4.0.14]
+	at groovy.util.BuilderSupport.doInvokeMethod(BuilderSupport.java:154) ~[groovy-4.0.14.jar:4.0.14]
+	at groovy.util.BuilderSupport.invokeMethod(BuilderSupport.java:75) ~[groovy-4.0.14.jar:4.0.14]
+	at org.codehaus.groovy.vmplugin.v8.IndyGuardsFiltersAndSignatures.invokeGroovyObjectInvoker(IndyGuardsFiltersAndSignatures.java:151) ~[groovy-4.0.14.jar:4.0.14]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321) ~[groovy-4.0.14.jar:4.0.14]
+	at org.example.service.CSVToXOGXMLService.generateXOGXML(CSVToXOGXMLService.groovy:65) ~[main/:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321) [groovy-4.0.14.jar:4.0.14]
+	at org.example.controller.CSVToXOGXMLController.processCSV(CSVToXOGXMLController.groovy:28) [main/:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321) [groovy-4.0.14.jar:4.0.14]
+	at org.example.Main.main(Main.groovy:14) [main/:?]
+2024-12-26 10:04:21 [main] INFO  org.example.controller.CSVToXOGXMLController - Starting CSV to XOG XML conversion for file: test.csv
+2024-12-26 10:04:21 [main] INFO  org.example.controller.CSVToXOGXMLController - XOG XML successfully generated and saved to test.xog.xml
+2024-12-26 10:07:13 [main] INFO  org.example.controller.CSVToXOGXMLController - Starting CSV to XOG XML conversion for file: test.csv
+2024-12-26 10:07:13 [main] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2024-12-26 10:07:13 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2024-12-26 10:07:13 [main] INFO  org.example.service.CSVToXOGXMLService - Successfully read 2 departments from CSV.
+2024-12-26 10:07:13 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 10:07:13 [main] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 10:07:13 [main] INFO  org.example.controller.CSVToXOGXMLController - XOG XML successfully generated and saved to test.xog.xml
+2024-12-26 10:10:48 [main] INFO  org.example.Main - Application started
+2024-12-26 10:10:48 [main] DEBUG org.example.Main - Initializing CSVToXOGXMLService
+2024-12-26 10:10:48 [main] DEBUG org.example.Main - Injecting service into CSVToXOGXMLController
+2024-12-26 10:10:48 [main] INFO  org.example.Main - Using CSV file: test.csv
+2024-12-26 10:10:48 [main] INFO  org.example.controller.CSVToXOGXMLController - Starting CSV to XOG XML conversion for file: test.csv
+2024-12-26 10:10:48 [main] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2024-12-26 10:10:48 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2024-12-26 10:10:48 [main] INFO  org.example.service.CSVToXOGXMLService - Successfully read 2 departments from CSV.
+2024-12-26 10:10:48 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 10:10:48 [main] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 10:10:48 [main] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: test.xog.xml
+2024-12-26 10:10:48 [main] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: test.xog.xml
+2024-12-26 10:10:48 [main] INFO  org.example.controller.CSVToXOGXMLController - XOG XML successfully generated and saved to test.xog.xml
+2024-12-26 10:10:48 [main] INFO  org.example.Main - CSV processing completed successfully
+2024-12-26 10:10:48 [main] INFO  org.example.Main - Application finished
+2024-12-26 10:12:36 [main] INFO  org.example.Main - Application started
+2024-12-26 10:12:36 [main] DEBUG org.example.Main - Initializing CSVToXOGXMLService
+2024-12-26 10:12:36 [main] DEBUG org.example.Main - Injecting service into CSVToXOGXMLController
+2024-12-26 10:12:36 [main] INFO  org.example.Main - Using CSV file: test.csv
+2024-12-26 10:12:36 [main] INFO  org.example.controller.CSVToXOGXMLController - Starting CSV to XOG XML conversion for file: test.csv
+2024-12-26 10:12:36 [main] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2024-12-26 10:12:36 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2024-12-26 10:12:36 [main] INFO  org.example.service.CSVToXOGXMLService - Successfully read 2 departments from CSV.
+2024-12-26 10:12:36 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 10:12:36 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 10:12:36 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 10:12:36 [main] DEBUG org.example.service.CSVToXOGXMLService - Adding LocationAssociation for department: C with locationcode: DE
+2024-12-26 10:12:36 [main] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 10:12:36 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: CCA
+2024-12-26 10:12:36 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Compliance &amp
+2024-12-26 10:12:36 [main] DEBUG org.example.service.CSVToXOGXMLService - Adding LocationAssociation for department: CCA with locationcode: DE
+2024-12-26 10:12:36 [main] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: CCA
+2024-12-26 10:12:36 [main] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 10:12:36 [main] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: test.xog.xml
+2024-12-26 10:12:36 [main] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: test.xog.xml
+2024-12-26 10:12:36 [main] INFO  org.example.controller.CSVToXOGXMLController - XOG XML successfully generated and saved to test.xog.xml
+2024-12-26 10:12:36 [main] INFO  org.example.Main - CSV processing completed successfully
+2024-12-26 10:12:36 [main] INFO  org.example.Main - Application finished
+2024-12-26 10:13:45 [main] INFO  org.example.Main - Application started
+2024-12-26 10:13:45 [main] DEBUG org.example.Main - Initializing CSVToXOGXMLService
+2024-12-26 10:13:45 [main] DEBUG org.example.Main - Injecting service into CSVToXOGXMLController
+2024-12-26 10:13:45 [main] INFO  org.example.Main - Using CSV file: test.csv
+2024-12-26 10:13:45 [main] INFO  org.example.controller.CSVToXOGXMLController - Starting CSV to XOG XML conversion for file: test.csv
+2024-12-26 10:13:45 [main] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2024-12-26 10:13:45 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2024-12-26 10:13:45 [main] INFO  org.example.service.CSVToXOGXMLService - Successfully read 2 departments from CSV.
+2024-12-26 10:13:45 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 10:13:45 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 10:13:45 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 10:13:45 [main] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 10:13:45 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: CCA
+2024-12-26 10:13:45 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Compliance &amp
+2024-12-26 10:13:45 [main] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: CCA
+2024-12-26 10:13:45 [main] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 10:13:45 [main] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: test.xog.xml
+2024-12-26 10:13:45 [main] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: test.xog.xml
+2024-12-26 10:13:45 [main] INFO  org.example.controller.CSVToXOGXMLController - XOG XML successfully generated and saved to test.xog.xml
+2024-12-26 10:13:45 [main] INFO  org.example.Main - CSV processing completed successfully
+2024-12-26 10:13:45 [main] INFO  org.example.Main - Application finished
+2024-12-26 10:17:04 [main] INFO  org.example.Main - Application started
+2024-12-26 10:17:04 [main] DEBUG org.example.Main - Initializing CSVToXOGXMLService
+2024-12-26 10:17:04 [main] DEBUG org.example.Main - Injecting service into CSVToXOGXMLController
+2024-12-26 10:17:04 [main] INFO  org.example.Main - Using CSV file: test.csv
+2024-12-26 10:17:04 [main] INFO  org.example.controller.CSVToXOGXMLController - Starting CSV to XOG XML conversion for file: test.csv
+2024-12-26 10:17:04 [main] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2024-12-26 10:17:04 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2024-12-26 10:17:05 [main] INFO  org.example.service.CSVToXOGXMLService - Successfully read 2 departments from CSV.
+2024-12-26 10:17:05 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 10:17:05 [main] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 10:17:05 [main] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: test.xog.xml
+2024-12-26 10:17:05 [main] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: test.xog.xml
+2024-12-26 10:17:05 [main] INFO  org.example.controller.CSVToXOGXMLController - XOG XML successfully generated and saved to test.xog.xml
+2024-12-26 10:17:05 [main] INFO  org.example.Main - CSV processing completed successfully
+2024-12-26 10:17:05 [main] INFO  org.example.Main - Application finished
+2024-12-26 10:18:43 [main] INFO  org.example.Main - Application started
+2024-12-26 10:18:43 [main] DEBUG org.example.Main - Initializing CSVToXOGXMLService
+2024-12-26 10:18:43 [main] DEBUG org.example.Main - Injecting service into CSVToXOGXMLController
+2024-12-26 10:18:43 [main] INFO  org.example.Main - Using CSV file: test.csv
+2024-12-26 10:18:43 [main] INFO  org.example.controller.CSVToXOGXMLController - Starting CSV to XOG XML conversion for file: test.csv
+2024-12-26 10:18:43 [main] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2024-12-26 10:18:43 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2024-12-26 10:18:43 [main] INFO  org.example.service.CSVToXOGXMLService - Successfully read 2 departments from CSV.
+2024-12-26 10:18:43 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 10:18:43 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 10:18:43 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 10:18:43 [main] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 10:18:43 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: CCA
+2024-12-26 10:18:43 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Compliance &amp
+2024-12-26 10:18:43 [main] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: CCA
+2024-12-26 10:18:43 [main] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 10:18:43 [main] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: test.xog.xml
+2024-12-26 10:18:43 [main] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: test.xog.xml
+2024-12-26 10:18:43 [main] INFO  org.example.controller.CSVToXOGXMLController - XOG XML successfully generated and saved to test.xog.xml
+2024-12-26 10:18:43 [main] INFO  org.example.Main - CSV processing completed successfully
+2024-12-26 10:18:43 [main] INFO  org.example.Main - Application finished
+2024-12-26 10:19:50 [main] INFO  org.example.Main - Application started
+2024-12-26 10:19:50 [main] DEBUG org.example.Main - Initializing CSVToXOGXMLService
+2024-12-26 10:19:50 [main] DEBUG org.example.Main - Injecting service into CSVToXOGXMLController
+2024-12-26 10:19:50 [main] INFO  org.example.Main - Using CSV file: test.csv
+2024-12-26 10:19:50 [main] INFO  org.example.controller.CSVToXOGXMLController - Starting CSV to XOG XML conversion for file: test.csv
+2024-12-26 10:19:50 [main] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2024-12-26 10:19:50 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2024-12-26 10:19:50 [main] INFO  org.example.service.CSVToXOGXMLService - Successfully read 2 departments from CSV.
+2024-12-26 10:19:50 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 10:19:50 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 10:19:50 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 10:19:50 [main] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: C
+2024-12-26 10:19:50 [main] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: CCA for parent department: C
+2024-12-26 10:19:50 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: CCA
+2024-12-26 10:19:50 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Compliance &amp
+2024-12-26 10:19:50 [main] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: CCA
+2024-12-26 10:19:50 [main] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 10:19:50 [main] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: test.xog.xml
+2024-12-26 10:19:50 [main] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: test.xog.xml
+2024-12-26 10:19:50 [main] INFO  org.example.controller.CSVToXOGXMLController - XOG XML successfully generated and saved to test.xog.xml
+2024-12-26 10:19:50 [main] INFO  org.example.Main - CSV processing completed successfully
+2024-12-26 10:19:50 [main] INFO  org.example.Main - Application finished
+2024-12-26 10:24:18 [main] INFO  org.example.Main - Application started
+2024-12-26 10:24:18 [main] DEBUG org.example.Main - Initializing CSVToXOGXMLService
+2024-12-26 10:24:18 [main] DEBUG org.example.Main - Injecting service into CSVToXOGXMLController
+2024-12-26 10:24:18 [main] INFO  org.example.Main - Using CSV file: test.csv
+2024-12-26 10:24:18 [main] INFO  org.example.controller.CSVToXOGXMLController - Starting CSV to XOG XML conversion for file: test.csv
+2024-12-26 10:24:18 [main] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2024-12-26 10:24:18 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2024-12-26 10:24:18 [main] INFO  org.example.service.CSVToXOGXMLService - Successfully read 2 departments from CSV.
+2024-12-26 10:24:18 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 10:24:18 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 10:24:18 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 10:24:18 [main] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: C
+2024-12-26 10:24:18 [main] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: CCA for parent department: C
+2024-12-26 10:24:18 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: CCA
+2024-12-26 10:24:18 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Compliance &amp
+2024-12-26 10:24:18 [main] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: CCA
+2024-12-26 10:24:18 [main] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 10:24:18 [main] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: test.xog.xml
+2024-12-26 10:24:18 [main] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: test.xog.xml
+2024-12-26 10:24:18 [main] INFO  org.example.controller.CSVToXOGXMLController - XOG XML successfully generated and saved to test.xog.xml
+2024-12-26 10:24:18 [main] INFO  org.example.Main - CSV processing completed successfully
+2024-12-26 10:24:18 [main] INFO  org.example.Main - Application finished
+2024-12-26 10:41:33 [main] INFO  org.example.Main - Application started
+2024-12-26 10:41:33 [main] DEBUG org.example.Main - Initializing CSVToXOGXMLService
+2024-12-26 10:41:33 [main] DEBUG org.example.Main - Injecting service into CSVToXOGXMLController
+2024-12-26 10:41:33 [main] INFO  org.example.Main - Using CSV file: test.csv
+2024-12-26 10:41:33 [main] INFO  org.example.controller.CSVToXOGXMLController - Starting CSV to XOG XML conversion for file: test.csv
+2024-12-26 10:41:33 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: test.csv
+2024-12-26 10:41:33 [main] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2024-12-26 10:41:33 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2024-12-26 10:41:33 [main] INFO  org.example.service.CSVToXOGXMLService - Reading lines from file: test.csv
+2024-12-26 10:41:33 [main] DEBUG org.example.service.CSVToXOGXMLService - Read 3 lines from file.
+2024-12-26 10:41:33 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV content validated with 3 rows.
+2024-12-26 10:41:33 [main] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 2 departments from CSV.
+2024-12-26 10:41:33 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 10:41:34 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 10:41:34 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 10:41:34 [main] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 10:41:34 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: CCA
+2024-12-26 10:41:34 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Compliance &amp
+2024-12-26 10:41:34 [main] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: CCA
+2024-12-26 10:41:34 [main] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 10:41:34 [main] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: test.xog.xml
+2024-12-26 10:41:34 [main] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: test.xog.xml
+2024-12-26 10:41:34 [main] INFO  org.example.controller.CSVToXOGXMLController - XOG XML successfully generated and saved to test.xog.xml
+2024-12-26 10:41:34 [main] INFO  org.example.Main - CSV processing completed successfully
+2024-12-26 10:41:34 [main] INFO  org.example.Main - Application finished
+2024-12-26 10:42:48 [main] INFO  org.example.Main - Application started
+2024-12-26 10:42:48 [main] DEBUG org.example.Main - Initializing CSVToXOGXMLService
+2024-12-26 10:42:48 [main] DEBUG org.example.Main - Injecting service into CSVToXOGXMLController
+2024-12-26 10:42:48 [main] INFO  org.example.Main - Using CSV file: test.csv
+2024-12-26 10:42:48 [main] INFO  org.example.controller.CSVToXOGXMLController - Starting CSV to XOG XML conversion for file: test.csv
+2024-12-26 10:42:48 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: test.csv
+2024-12-26 10:42:48 [main] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2024-12-26 10:42:48 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2024-12-26 10:42:48 [main] INFO  org.example.service.CSVToXOGXMLService - Reading lines from file: test.csv
+2024-12-26 10:42:48 [main] DEBUG org.example.service.CSVToXOGXMLService - Read 3 lines from file.
+2024-12-26 10:42:48 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV content validated with 3 rows.
+2024-12-26 10:42:48 [main] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 2 departments from CSV.
+2024-12-26 10:42:48 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 10:42:48 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 10:42:48 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 10:42:48 [main] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 10:42:48 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: CCA
+2024-12-26 10:42:48 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Compliance &amp
+2024-12-26 10:42:48 [main] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: CCA
+2024-12-26 10:42:48 [main] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 10:42:48 [main] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: test.xog.xml
+2024-12-26 10:42:48 [main] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: test.xog.xml
+2024-12-26 10:42:48 [main] INFO  org.example.controller.CSVToXOGXMLController - XOG XML successfully generated and saved to test.xog.xml
+2024-12-26 10:42:48 [main] INFO  org.example.Main - CSV processing completed successfully
+2024-12-26 10:42:48 [main] INFO  org.example.Main - Application finished
+2024-12-26 10:44:14 [main] INFO  org.example.Main - Application started
+2024-12-26 10:44:14 [main] DEBUG org.example.Main - Initializing CSVToXOGXMLService
+2024-12-26 10:44:14 [main] DEBUG org.example.Main - Injecting service into CSVToXOGXMLController
+2024-12-26 10:44:14 [main] INFO  org.example.Main - Using CSV file: test.csv
+2024-12-26 10:44:14 [main] INFO  org.example.controller.CSVToXOGXMLController - Starting CSV to XOG XML conversion for file: test.csv
+2024-12-26 10:44:14 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: test.csv
+2024-12-26 10:44:14 [main] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2024-12-26 10:44:14 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2024-12-26 10:44:14 [main] INFO  org.example.service.CSVToXOGXMLService - Reading lines from file: test.csv
+2024-12-26 10:44:14 [main] DEBUG org.example.service.CSVToXOGXMLService - Read 3 lines from file.
+2024-12-26 10:44:14 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV content validated with 3 rows.
+2024-12-26 10:44:14 [main] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 2 departments from CSV.
+2024-12-26 10:44:14 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 10:44:14 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 10:44:14 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 10:44:14 [main] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: C
+2024-12-26 10:44:14 [main] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: CCA for parent department: C
+2024-12-26 10:44:14 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: CCA
+2024-12-26 10:44:14 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Compliance &amp
+2024-12-26 10:44:14 [main] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: CCA
+2024-12-26 10:44:14 [main] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 10:44:14 [main] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: test.xog.xml
+2024-12-26 10:44:14 [main] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: test.xog.xml
+2024-12-26 10:44:14 [main] INFO  org.example.controller.CSVToXOGXMLController - XOG XML successfully generated and saved to test.xog.xml
+2024-12-26 10:44:14 [main] INFO  org.example.Main - CSV processing completed successfully
+2024-12-26 10:44:14 [main] INFO  org.example.Main - Application finished

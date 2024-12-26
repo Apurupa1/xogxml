@@ -1,13 +1,17 @@
-<NikuDataBus xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='xog.xsd'>
-  <Header action='write' externalSource='NIKU' objectType='department' version='15.9'>
-    <Security>
-      <Username>clarityadmin</Username>
-      <Password>claritypassword</Password>
-    </Security>
-  </Header>
+<NikuDataBus xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='../xsd/nikuxog_department.xsd'>
+  <Header action='write' externalSource='NIKU' objectType='department' version='15.9' />
   <Departments>
-    <Department id='1001' name='HR' parentID='ROOT' />
-    <Department id='1002' name='IT' parentID='1001' />
-    <Department id='1003' name='Finance' parentID='1001' />
+    <Department department_code='C' dept_manager_code='admin' entity='Corporate' short_description='Corporate'>
+      <Description>Corporate</Description>
+      <LocationAssociations>
+        <LocationAssociation locationcode='DE' />
+      </LocationAssociations>
+      <Department department_code='CCA' dept_manager_code='admin' entity='Corporate' short_description='Corporate Compliance &amp;amp'>
+        <Description>Corporate Compliance &amp;amp</Description>
+        <LocationAssociations>
+          <LocationAssociation locationcode='DE' />
+        </LocationAssociations>
+      </Department>
+    </Department>
   </Departments>
 </NikuDataBus>

@@ -13,14 +13,14 @@ class CSVToXOGXMLService {
     // Read the CSV and return a list of Department objects
     List<Department> readCSV(String csvFile) {
         validateCSVFilePath(csvFile)
-        File file = locateCSVFile(csvFile)
+        InputStream inputStream = locateCSVFile(csvFile)
 
-        if (!file) {
+        if (inputStream == null) {
             logger.error("File not found: {}", csvFile)
             return []
         }
 
-        List<String> lines = readCSVLines(file)
+        List<String> lines = readCSVLines(inputStream)
         validateCSVContent(lines)
 
         return parseCSVLines(lines)
@@ -35,30 +35,28 @@ class CSVToXOGXMLService {
     }
 
     // Locate the CSV file in the resources folder
-    private File locateCSVFile(String csvFile) {
+    private InputStream locateCSVFile(String csvFile) {
         logger.debug("Locating CSV file: {}", csvFile)
-        URL resourceUrl = CSVToXOGXMLService.class.classLoader.getResource(csvFile)
-        if (resourceUrl) {
-            File file = new File(resourceUrl.toURI())
-            if (file.exists()) {
-                logger.debug("CSV file found: {}", csvFile)
-                return file
-            }
+        InputStream inputStream = CSVToXOGXMLService.class.classLoader.getResourceAsStream(csvFile)
+        if (inputStream != null) {
+            logger.debug("CSV file found: {}", csvFile)
+            return inputStream
         }
         logger.warn("CSV file not found in resources: {}", csvFile)
         return null
     }
 
     // Read lines from the CSV file
-    private List<String> readCSVLines(File file) {
-        logger.info("Reading lines from file: {}", file.getName())
-        List<String> lines = file.readLines()
+    private List<String> readCSVLines(InputStream inputStream) {
+        logger.info("Reading lines from input stream.")
+        List<String> lines = inputStream.readLines() // You can convert the InputStream to a List of lines
         if (lines.isEmpty()) {
-            throw new IllegalArgumentException("CSV file is empty: " + file.getName())
+            throw new IllegalArgumentException("CSV file is empty.")
         }
-        logger.debug("Read {} lines from file.", lines.size())
+        logger.debug("Read {} lines from input stream.", lines.size())
         return lines
     }
+
 
     // Validate the content of the CSV file
     private void validateCSVContent(List<String> lines) {
@@ -97,7 +95,7 @@ class CSVToXOGXMLService {
         )
     }
 
-    // Generate the XOG XML
+    // Generate the XOG XML using a flat structure with parent-child references
     String generateXOGXML(List<Department> departmentData) {
         logger.info("Generating XOG XML for {} departments", departmentData.size())
         StringWriter writer = new StringWriter()
@@ -109,14 +107,17 @@ class CSVToXOGXMLService {
             Header(action: 'write', externalSource: 'NIKU', objectType: 'department', version: '15.9')
 
             Departments {
-                def departmentsByParentCode = departmentData.groupBy { it.parent_department_code }
+                // Build a map to quickly access departments by their department_code
+                Map<String, Department> departmentMap = departmentData.collectEntries { [it.department_code, it] }
 
-                // Identify root departments: those without a parent or explicitly marked as root
-                departmentData.findAll {
-                    it.parent_department_code in ["", "Root"] ||
-                            !departmentData.any { dept -> dept.department_code == it.parent_department_code }
-                }.each { rootDept ->
-                    createDepartment(xml, rootDept, departmentsByParentCode)
+                // Identify root departments (those without a parent or with a parent code not in the map)
+                List<Department> rootDepartments = departmentData.findAll { dept ->
+                    dept.parent_department_code == null || !departmentMap.containsKey(dept.parent_department_code)
+                }
+
+                // Process each root department and its children
+                rootDepartments.each { rootDept ->
+                    createDepartment(xml, rootDept, departmentMap)
                 }
             }
         }
@@ -124,8 +125,7 @@ class CSVToXOGXMLService {
         return writer.toString()
     }
 
-
-    private void createDepartment(MarkupBuilder xml, Department dept, Map departmentsByParentCode) {
+    private void createDepartment(MarkupBuilder xml, Department dept, Map<String, Department> departmentMap) {
         logger.info("Generating XML for department: {}", dept.department_code)
 
         xml.Department(department_code: dept.department_code,
@@ -142,17 +142,12 @@ class CSVToXOGXMLService {
                 }
             }
 
-            def subDepartments = departmentsByParentCode[dept.department_code]
-            if (subDepartments) {
-                logger.info("Found {} sub-departments for department: {}",
-                        subDepartments.size(), dept.department_code)
-                subDepartments.each { subDept ->
-                    logger.debug("Processing sub-department: {} for parent department: {}",
-                            subDept.department_code, dept.department_code)
-                    createDepartment(xml, subDept, departmentsByParentCode)
+            // Check for sub-departments using the parent-child reference
+            departmentMap.each { parentCode, childDept ->
+                if (childDept.parent_department_code == dept.department_code) {
+                    logger.info("Found sub-department: {} for parent department: {}", childDept.department_code, dept.department_code)
+                    createDepartment(xml, childDept, departmentMap)
                 }
-            } else {
-                logger.debug("No sub-departments found for department: {}", dept.department_code)
             }
         }
     }

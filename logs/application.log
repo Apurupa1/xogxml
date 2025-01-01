@@ -498,3 +498,653 @@ groovy.lang.MissingMethodException: No signature of method: org.example.service.
 2024-12-26 11:47:29 [main] INFO  org.example.controller.CSVToXOGXMLController - XOG XML successfully generated and saved to test.xog.xml
 2024-12-26 11:47:29 [main] INFO  org.example.Main - CSV processing completed successfully
 2024-12-26 11:47:29 [main] INFO  org.example.Main - Application finished
+2024-12-26 12:21:52 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: C:\Users\Apurupa\AppData\Local\Temp\test_output12225394762647454226.xml
+2024-12-26 12:21:52 [Test worker] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: C:\Users\Apurupa\AppData\Local\Temp\test_output12225394762647454226.xml
+2024-12-26 12:21:52 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: empty_file.csv
+2024-12-26 12:21:52 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: empty_file.csv
+2024-12-26 12:21:52 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: empty_file.csv
+2024-12-26 12:21:52 [Test worker] ERROR org.example.service.CSVToXOGXMLService - File not found: empty_file.csv
+2024-12-26 12:21:52 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: valid_departments.csv
+2024-12-26 12:21:52 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: valid_departments.csv
+2024-12-26 12:21:52 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: valid_departments.csv
+2024-12-26 12:21:52 [Test worker] ERROR org.example.service.CSVToXOGXMLService - File not found: valid_departments.csv
+2024-12-26 12:21:52 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: ignore_rows.csv
+2024-12-26 12:21:52 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: ignore_rows.csv
+2024-12-26 12:21:52 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: ignore_rows.csv
+2024-12-26 12:21:52 [Test worker] ERROR org.example.service.CSVToXOGXMLService - File not found: ignore_rows.csv
+2024-12-26 12:24:13 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: C:\Users\Apurupa\AppData\Local\Temp\test_output10680125437706474018.xml
+2024-12-26 12:24:13 [Test worker] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: C:\Users\Apurupa\AppData\Local\Temp\test_output10680125437706474018.xml
+2024-12-26 12:24:13 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: empty_file.csv
+2024-12-26 12:24:13 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: empty_file.csv
+2024-12-26 12:24:14 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: empty_file.csv
+2024-12-26 12:24:14 [Test worker] ERROR org.example.service.CSVToXOGXMLService - File not found: empty_file.csv
+2024-12-26 12:24:14 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: valid_departments.csv
+2024-12-26 12:24:14 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: valid_departments.csv
+2024-12-26 12:24:14 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: valid_departments.csv
+2024-12-26 12:24:14 [Test worker] ERROR org.example.service.CSVToXOGXMLService - File not found: valid_departments.csv
+2024-12-26 12:24:14 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: ignore_rows.csv
+2024-12-26 12:24:14 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: ignore_rows.csv
+2024-12-26 12:24:14 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: ignore_rows.csv
+2024-12-26 12:24:14 [Test worker] ERROR org.example.service.CSVToXOGXMLService - File not found: ignore_rows.csv
+2024-12-26 12:24:20 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: empty_file.csv
+2024-12-26 12:24:20 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: empty_file.csv
+2024-12-26 12:24:20 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: empty_file.csv
+2024-12-26 12:24:20 [Test worker] ERROR org.example.service.CSVToXOGXMLService - File not found: empty_file.csv
+2024-12-26 12:24:20 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: valid_departments.csv
+2024-12-26 12:24:20 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: valid_departments.csv
+2024-12-26 12:24:20 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: valid_departments.csv
+2024-12-26 12:24:20 [Test worker] ERROR org.example.service.CSVToXOGXMLService - File not found: valid_departments.csv
+2024-12-26 12:25:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: C:\Users\Apurupa\AppData\Local\Temp\test_output15596682166388298547.xml
+2024-12-26 12:25:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: C:\Users\Apurupa\AppData\Local\Temp\test_output15596682166388298547.xml
+2024-12-26 12:25:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 3 departments
+2024-12-26 12:25:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 12:25:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: F
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Finance
+2024-12-26 12:25:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: F
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FAN for parent department: F
+2024-12-26 12:25:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FAN
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Accounting
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FAN
+2024-12-26 12:25:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: empty_file.csv
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: empty_file.csv
+2024-12-26 12:25:25 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: empty_file.csv
+2024-12-26 12:25:25 [Test worker] ERROR org.example.service.CSVToXOGXMLService - File not found: empty_file.csv
+2024-12-26 12:25:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 3 departments
+2024-12-26 12:25:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:25:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: C
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO for parent department: C
+2024-12-26 12:25:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Controlling
+2024-12-26 12:25:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: FCO
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO-F for parent department: FCO
+2024-12-26 12:25:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Financial Controlling
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FCO-F
+2024-12-26 12:25:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:25:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 1 departments
+2024-12-26 12:25:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 12:25:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: valid_departments.csv
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: valid_departments.csv
+2024-12-26 12:25:25 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: valid_departments.csv
+2024-12-26 12:25:25 [Test worker] ERROR org.example.service.CSVToXOGXMLService - File not found: valid_departments.csv
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: ignore_rows.csv
+2024-12-26 12:25:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: ignore_rows.csv
+2024-12-26 12:25:25 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: ignore_rows.csv
+2024-12-26 12:25:25 [Test worker] ERROR org.example.service.CSVToXOGXMLService - File not found: ignore_rows.csv
+2024-12-26 12:27:24 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: C:\Users\Apurupa\AppData\Local\Temp\test_output11813601703443452189.xml
+2024-12-26 12:27:24 [Test worker] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: C:\Users\Apurupa\AppData\Local\Temp\test_output11813601703443452189.xml
+2024-12-26 12:27:24 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 3 departments
+2024-12-26 12:27:24 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 12:27:24 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 12:27:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: F
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Finance
+2024-12-26 12:27:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: F
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FAN for parent department: F
+2024-12-26 12:27:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FAN
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Accounting
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FAN
+2024-12-26 12:27:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: empty_file.csv
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: empty_file.csv
+2024-12-26 12:27:25 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: empty_file.csv
+2024-12-26 12:27:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 3 departments
+2024-12-26 12:27:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:27:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: C
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO for parent department: C
+2024-12-26 12:27:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Controlling
+2024-12-26 12:27:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: FCO
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO-F for parent department: FCO
+2024-12-26 12:27:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Financial Controlling
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FCO-F
+2024-12-26 12:27:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:27:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 1 departments
+2024-12-26 12:27:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 12:27:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: valid_departments.csv
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: valid_departments.csv
+2024-12-26 12:27:25 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: valid_departments.csv
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: ignore_rows.csv
+2024-12-26 12:27:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: ignore_rows.csv
+2024-12-26 12:27:25 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: ignore_rows.csv
+2024-12-26 12:27:57 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: C:\Users\Apurupa\AppData\Local\Temp\test_output3637056655827875514.xml
+2024-12-26 12:27:57 [Test worker] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: C:\Users\Apurupa\AppData\Local\Temp\test_output3637056655827875514.xml
+2024-12-26 12:27:57 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 3 departments
+2024-12-26 12:27:57 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 12:27:57 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:27:57 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 12:27:57 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: F
+2024-12-26 12:27:57 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Finance
+2024-12-26 12:27:57 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: F
+2024-12-26 12:27:57 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FAN for parent department: F
+2024-12-26 12:27:57 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FAN
+2024-12-26 12:27:57 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Accounting
+2024-12-26 12:27:57 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FAN
+2024-12-26 12:27:57 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:27:58 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: empty_file.csv
+2024-12-26 12:27:58 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: empty_file.csv
+2024-12-26 12:27:58 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: empty_file.csv
+2024-12-26 12:27:58 [Test worker] ERROR org.example.service.CSVToXOGXMLService - File not found: empty_file.csv
+2024-12-26 12:27:58 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 3 departments
+2024-12-26 12:27:58 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 12:27:58 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:27:58 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: C
+2024-12-26 12:27:58 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO for parent department: C
+2024-12-26 12:27:58 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO
+2024-12-26 12:27:58 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Controlling
+2024-12-26 12:27:58 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: FCO
+2024-12-26 12:27:58 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO-F for parent department: FCO
+2024-12-26 12:27:58 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F
+2024-12-26 12:27:58 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Financial Controlling
+2024-12-26 12:27:58 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FCO-F
+2024-12-26 12:27:58 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:27:58 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 1 departments
+2024-12-26 12:27:58 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 12:27:58 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:27:58 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 12:27:58 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:27:58 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: valid_departments.csv
+2024-12-26 12:27:58 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: valid_departments.csv
+2024-12-26 12:27:58 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: valid_departments.csv
+2024-12-26 12:27:58 [Test worker] ERROR org.example.service.CSVToXOGXMLService - File not found: valid_departments.csv
+2024-12-26 12:27:58 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: ignore_rows.csv
+2024-12-26 12:27:58 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: ignore_rows.csv
+2024-12-26 12:27:58 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: ignore_rows.csv
+2024-12-26 12:27:58 [Test worker] ERROR org.example.service.CSVToXOGXMLService - File not found: ignore_rows.csv
+2024-12-26 12:28:22 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: test.csv
+2024-12-26 12:28:22 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2024-12-26 12:28:22 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2024-12-26 12:28:22 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Reading lines from file: test.csv
+2024-12-26 12:28:22 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Read 3 lines from file.
+2024-12-26 12:28:22 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV content validated with 3 rows.
+2024-12-26 12:28:22 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 2 departments from CSV.
+2024-12-26 12:28:52 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: test.csv
+2024-12-26 12:28:52 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2024-12-26 12:28:52 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2024-12-26 12:28:52 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Reading lines from file: test.csv
+2024-12-26 12:28:52 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Read 3 lines from file.
+2024-12-26 12:28:52 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV content validated with 3 rows.
+2024-12-26 12:28:52 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 2 departments from CSV.
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: C:\Users\Apurupa\AppData\Local\Temp\test_output15938294187401531535.xml
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: C:\Users\Apurupa\AppData\Local\Temp\test_output15938294187401531535.xml
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 3 departments
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: F
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Finance
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: F
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FAN for parent department: F
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FAN
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Accounting
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FAN
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 3 departments
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: C
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO for parent department: C
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Controlling
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: FCO
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO-F for parent department: FCO
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Financial Controlling
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FCO-F
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 1 departments
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: test.csv
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Reading lines from file: test.csv
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Read 3 lines from file.
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV content validated with 3 rows.
+2024-12-26 12:29:47 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 2 departments from CSV.
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: ignore_rows.csv
+2024-12-26 12:29:47 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: ignore_rows.csv
+2024-12-26 12:29:47 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: ignore_rows.csv
+2024-12-26 12:29:47 [Test worker] ERROR org.example.service.CSVToXOGXMLService - File not found: ignore_rows.csv
+2024-12-26 12:35:48 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: mock.csv
+2024-12-26 12:35:48 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: mock.csv
+2024-12-26 12:35:49 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: mock.csv
+2024-12-26 12:35:49 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Reading lines from file: mock.csv
+2024-12-26 12:35:49 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Read 1 lines from file.
+2024-12-26 12:36:27 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: mock.csv
+2024-12-26 12:36:27 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: mock.csv
+2024-12-26 12:36:27 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: mock.csv
+2024-12-26 12:36:27 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Reading lines from file: mock.csv
+2024-12-26 12:36:27 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Read 2 lines from file.
+2024-12-26 12:36:27 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV content validated with 2 rows.
+2024-12-26 12:36:27 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 1 departments from CSV.
+2024-12-26 12:37:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: C:\Users\Apurupa\AppData\Local\Temp\test_output8330260615548857504.xml
+2024-12-26 12:37:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: C:\Users\Apurupa\AppData\Local\Temp\test_output8330260615548857504.xml
+2024-12-26 12:37:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 3 departments
+2024-12-26 12:37:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 12:37:41 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:37:41 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 12:37:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: F
+2024-12-26 12:37:41 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Finance
+2024-12-26 12:37:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: F
+2024-12-26 12:37:41 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FAN for parent department: F
+2024-12-26 12:37:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FAN
+2024-12-26 12:37:41 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Accounting
+2024-12-26 12:37:41 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FAN
+2024-12-26 12:37:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:37:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 3 departments
+2024-12-26 12:37:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 12:37:41 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:37:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: C
+2024-12-26 12:37:41 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO for parent department: C
+2024-12-26 12:37:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO
+2024-12-26 12:37:41 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Controlling
+2024-12-26 12:37:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: FCO
+2024-12-26 12:37:41 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO-F for parent department: FCO
+2024-12-26 12:37:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F
+2024-12-26 12:37:41 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Financial Controlling
+2024-12-26 12:37:41 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FCO-F
+2024-12-26 12:37:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:37:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 1 departments
+2024-12-26 12:37:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 12:37:41 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:37:41 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 12:37:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:37:42 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: ignore_rows.csv
+2024-12-26 12:37:42 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: ignore_rows.csv
+2024-12-26 12:37:42 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: ignore_rows.csv
+2024-12-26 12:37:42 [Test worker] ERROR org.example.service.CSVToXOGXMLService - File not found: ignore_rows.csv
+2024-12-26 12:38:46 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 1 departments
+2024-12-26 12:38:46 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 12:38:46 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:38:46 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 12:38:46 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:39:18 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 1 departments
+2024-12-26 12:39:18 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: y
+2024-12-26 12:39:18 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:39:18 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: y
+2024-12-26 12:39:18 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:40:31 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 3 departments
+2024-12-26 12:40:31 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 12:40:31 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:40:31 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 12:40:31 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: F
+2024-12-26 12:40:31 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Finance
+2024-12-26 12:40:31 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: F
+2024-12-26 12:40:31 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FAN for parent department: F
+2024-12-26 12:40:31 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FAN
+2024-12-26 12:40:31 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Accounting
+2024-12-26 12:40:31 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FAN
+2024-12-26 12:40:31 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:41:11 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 1 departments
+2024-12-26 12:41:11 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 12:41:11 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 12:41:11 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 12:41:11 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 12:41:46 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: test.csv
+2024-12-26 12:41:46 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2024-12-26 12:41:46 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2024-12-26 12:41:46 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Reading lines from file: test.csv
+2024-12-26 12:41:46 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Read 3 lines from file.
+2024-12-26 12:41:46 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV content validated with 3 rows.
+2024-12-26 12:41:46 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 2 departments from CSV.
+2024-12-26 16:13:09 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: C:\Users\Apurupa\AppData\Local\Temp\valid8567293078444273302.csv
+2024-12-26 16:13:09 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: C:\Users\Apurupa\AppData\Local\Temp\valid8567293078444273302.csv
+2024-12-26 16:13:09 [Test worker] WARN  org.example.service.CSVToXOGXMLService - CSV file not found in resources: C:\Users\Apurupa\AppData\Local\Temp\valid8567293078444273302.csv
+2024-12-26 16:13:09 [Test worker] ERROR org.example.service.CSVToXOGXMLService - File not found: C:\Users\Apurupa\AppData\Local\Temp\valid8567293078444273302.csv
+2024-12-26 16:13:41 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 2 departments from CSV.
+2024-12-26 16:14:53 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 2 departments from CSV.
+2024-12-26 16:15:24 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 2 departments from CSV.
+2024-12-26 16:15:33 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 16:15:33 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: D1
+2024-12-26 16:15:33 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Description 1
+2024-12-26 16:15:33 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: D1
+2024-12-26 16:15:33 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: D2 for parent department: D1
+2024-12-26 16:15:33 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: D2
+2024-12-26 16:15:33 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Description 2
+2024-12-26 16:15:33 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: D2
+2024-12-26 16:15:33 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 18:40:24 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: D1
+2024-12-26 18:40:24 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Description 1
+2024-12-26 18:40:24 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: D1
+2024-12-26 18:40:24 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 18:40:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: D1
+2024-12-26 18:40:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Description 1
+2024-12-26 18:40:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: D1
+2024-12-26 18:40:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: D2 for parent department: D1
+2024-12-26 18:40:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: D2
+2024-12-26 18:40:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Description 2
+2024-12-26 18:40:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: D2
+2024-12-26 18:40:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 18:40:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: C:\Users\Apurupa\AppData\Local\Temp\test_output7835165250904044131.xml
+2024-12-26 18:40:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: C:\Users\Apurupa\AppData\Local\Temp\test_output7835165250904044131.xml
+2024-12-26 18:40:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 3 departments
+2024-12-26 18:40:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 18:40:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 18:40:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: C
+2024-12-26 18:40:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO for parent department: C
+2024-12-26 18:40:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO
+2024-12-26 18:40:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Controlling
+2024-12-26 18:40:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: FCO
+2024-12-26 18:40:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO-F for parent department: FCO
+2024-12-26 18:40:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F
+2024-12-26 18:40:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Financial Controlling
+2024-12-26 18:40:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FCO-F
+2024-12-26 18:40:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 18:40:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 2 departments from CSV.
+2024-12-26 18:40:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 1 departments
+2024-12-26 18:40:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 18:40:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 18:40:25 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 18:40:25 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 18:40:45 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 2 departments from CSV.
+2024-12-26 19:08:13 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 2 departments from CSV.
+2024-12-26 19:15:40 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 19:15:40 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 19:15:40 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 19:15:40 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: C
+2024-12-26 19:15:40 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO for parent department: C
+2024-12-26 19:15:40 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO
+2024-12-26 19:15:40 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Controlling
+2024-12-26 19:15:40 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FCO
+2024-12-26 19:15:40 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 19:16:36 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 19:16:36 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 19:16:36 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 19:16:36 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: C
+2024-12-26 19:16:36 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO for parent department: C
+2024-12-26 19:16:36 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO
+2024-12-26 19:16:36 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Controlling
+2024-12-26 19:16:36 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FCO
+2024-12-26 19:16:36 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 19:17:04 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 19:17:04 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 19:17:04 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 19:17:04 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: C
+2024-12-26 19:17:04 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO for parent department: C
+2024-12-26 19:17:04 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO
+2024-12-26 19:17:04 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Controlling
+2024-12-26 19:17:04 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FCO
+2024-12-26 19:17:04 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 19:18:06 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 19:18:06 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 19:18:06 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 19:18:06 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: C
+2024-12-26 19:18:06 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO for parent department: C
+2024-12-26 19:18:06 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO
+2024-12-26 19:18:06 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Controlling
+2024-12-26 19:18:06 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FCO
+2024-12-26 19:18:06 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 19:18:45 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 19:18:45 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 19:18:45 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 19:18:45 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: C
+2024-12-26 19:18:45 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO for parent department: C
+2024-12-26 19:18:45 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO
+2024-12-26 19:18:45 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Controlling
+2024-12-26 19:18:45 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FCO
+2024-12-26 19:18:45 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 19:19:42 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-26 19:19:42 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 19:19:42 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 19:19:42 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: C
+2024-12-26 19:19:42 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO for parent department: C
+2024-12-26 19:19:42 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO
+2024-12-26 19:19:42 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Controlling
+2024-12-26 19:19:42 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FCO
+2024-12-26 19:19:42 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 19:21:13 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 19:21:13 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 19:21:13 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 19:22:21 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 19:22:21 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 19:22:21 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 19:25:42 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 19:25:42 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 19:25:42 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 19:26:31 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 19:26:31 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 19:26:31 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 19:28:29 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F
+2024-12-26 19:28:29 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Financial Controlling
+2024-12-26 19:28:29 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FCO-F
+2024-12-26 19:29:16 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F
+2024-12-26 19:29:16 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Financial Controlling
+2024-12-26 19:29:16 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FCO-F
+2024-12-26 19:29:16 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: C:\Users\Apurupa\AppData\Local\Temp\test_output13938823952295744859.xml
+2024-12-26 19:29:16 [Test worker] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: C:\Users\Apurupa\AppData\Local\Temp\test_output13938823952295744859.xml
+2024-12-26 19:29:16 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 3 departments
+2024-12-26 19:29:17 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 19:29:17 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 19:29:17 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: C
+2024-12-26 19:29:17 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO for parent department: C
+2024-12-26 19:29:17 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO
+2024-12-26 19:29:17 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Controlling
+2024-12-26 19:29:17 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Found 1 sub-departments for department: FCO
+2024-12-26 19:29:17 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Processing sub-department: FCO-F for parent department: FCO
+2024-12-26 19:29:17 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F
+2024-12-26 19:29:17 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Financial Controlling
+2024-12-26 19:29:17 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: FCO-F
+2024-12-26 19:29:17 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-26 19:29:17 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 2 departments from CSV.
+2024-12-26 19:29:17 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 1 departments
+2024-12-26 19:29:17 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-26 19:29:17 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-26 19:29:17 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - No sub-departments found for department: C
+2024-12-26 19:29:17 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-29 17:48:47 [main] INFO  org.example.Main - Application started
+2024-12-29 17:48:47 [main] DEBUG org.example.Main - Initializing CSVToXOGXMLService
+2024-12-29 17:48:47 [main] DEBUG org.example.Main - Injecting service into CSVToXOGXMLController
+2024-12-29 17:48:47 [main] INFO  org.example.Main - Using CSV file: test.csv
+2024-12-29 17:48:47 [main] INFO  org.example.controller.CSVToXOGXMLController - Starting CSV to XOG XML conversion for file: test.csv
+2024-12-29 17:48:47 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: test.csv
+2024-12-29 17:48:47 [main] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2024-12-29 17:48:48 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2024-12-29 17:48:48 [main] INFO  org.example.service.CSVToXOGXMLService - Reading lines from file: test.csv
+2024-12-29 17:48:48 [main] DEBUG org.example.service.CSVToXOGXMLService - Read 3 lines from file.
+2024-12-29 17:48:48 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV content validated with 3 rows.
+2024-12-29 17:48:48 [main] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 2 departments from CSV.
+2024-12-29 17:48:48 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 2 departments
+2024-12-29 17:48:48 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-29 17:48:48 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-29 17:48:48 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: CCA for parent department: C
+2024-12-29 17:48:48 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: CCA
+2024-12-29 17:48:48 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Compliance &amp
+2024-12-29 17:48:48 [main] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-29 17:48:48 [main] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: test.xog.xml
+2024-12-29 17:48:48 [main] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: test.xog.xml
+2024-12-29 17:48:48 [main] INFO  org.example.controller.CSVToXOGXMLController - XOG XML successfully generated and saved to test.xog.xml
+2024-12-29 17:48:48 [main] INFO  org.example.Main - CSV processing completed successfully
+2024-12-29 17:48:48 [main] INFO  org.example.Main - Application finished
+2024-12-29 17:50:12 [main] INFO  org.example.Main - Application started
+2024-12-29 17:50:12 [main] DEBUG org.example.Main - Initializing CSVToXOGXMLService
+2024-12-29 17:50:12 [main] DEBUG org.example.Main - Injecting service into CSVToXOGXMLController
+2024-12-29 17:50:12 [main] INFO  org.example.Main - Using CSV file: test.csv
+2024-12-29 17:50:12 [main] INFO  org.example.controller.CSVToXOGXMLController - Starting CSV to XOG XML conversion for file: test.csv
+2024-12-29 17:50:12 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: test.csv
+2024-12-29 17:50:12 [main] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2024-12-29 17:50:12 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Reading lines from file: test.csv
+2024-12-29 17:50:12 [main] DEBUG org.example.service.CSVToXOGXMLService - Read 17 lines from file.
+2024-12-29 17:50:12 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV content validated with 17 rows.
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 11 departments from CSV.
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 11 departments
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2024-12-29 17:50:12 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: CCA for parent department: C
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: CCA
+2024-12-29 17:50:12 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Compliance &amp
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: CCM for parent department: C
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: CCM
+2024-12-29 17:50:12 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Communications
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: CHR for parent department: C
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: CHR
+2024-12-29 17:50:12 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate HR
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: F
+2024-12-29 17:50:12 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Finance
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: FAN for parent department: F
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FAN
+2024-12-29 17:50:12 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Accounting
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: FCO for parent department: F
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO
+2024-12-29 17:50:12 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Controlling
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: FCO-F for parent department: FCO
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F
+2024-12-29 17:50:12 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Central Financial Controlling
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F_sub
+2024-12-29 17:50:12 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: SYU
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: FCO-F_sub_sub for parent department: FCO-F_sub
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F_sub_sub
+2024-12-29 17:50:12 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: GH
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: FCO-F_sub_sub_sub for parent department: FCO-F_sub_sub
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F_sub_sub_sub
+2024-12-29 17:50:12 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: HH
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: test.xog.xml
+2024-12-29 17:50:12 [main] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: test.xog.xml
+2024-12-29 17:50:12 [main] INFO  org.example.controller.CSVToXOGXMLController - XOG XML successfully generated and saved to test.xog.xml
+2024-12-29 17:50:12 [main] INFO  org.example.Main - CSV processing completed successfully
+2024-12-29 17:50:12 [main] INFO  org.example.Main - Application finished
+2025-01-01 16:30:39 [main] INFO  org.example.Main - Application started
+2025-01-01 16:30:39 [main] DEBUG org.example.Main - Initializing CSVToXOGXMLService
+2025-01-01 16:30:39 [main] DEBUG org.example.Main - Injecting service into CSVToXOGXMLController
+2025-01-01 16:30:39 [main] INFO  org.example.Main - Using CSV file: test.csv
+2025-01-01 16:30:39 [main] INFO  org.example.controller.CSVToXOGXMLController - Starting CSV to XOG XML conversion for file: test.csv
+2025-01-01 16:30:39 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: test.csv
+2025-01-01 16:30:39 [main] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2025-01-01 16:30:39 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Reading lines from file: test.csv
+2025-01-01 16:30:39 [main] DEBUG org.example.service.CSVToXOGXMLService - Read 17 lines from file.
+2025-01-01 16:30:39 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV content validated with 17 rows.
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 11 departments from CSV.
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 11 departments
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2025-01-01 16:30:39 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: CCA for parent department: C
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: CCA
+2025-01-01 16:30:39 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Compliance &amp
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: CCM for parent department: C
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: CCM
+2025-01-01 16:30:39 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Communications
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: CHR for parent department: C
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: CHR
+2025-01-01 16:30:39 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate HR
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: F
+2025-01-01 16:30:39 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Finance
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: FAN for parent department: F
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FAN
+2025-01-01 16:30:39 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Accounting
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: FCO for parent department: F
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO
+2025-01-01 16:30:39 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Controlling
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: FCO-F for parent department: FCO
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F
+2025-01-01 16:30:39 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Central Financial Controlling
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F_sub
+2025-01-01 16:30:39 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: SYU
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: FCO-F_sub_sub for parent department: FCO-F_sub
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F_sub_sub
+2025-01-01 16:30:39 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: GH
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: FCO-F_sub_sub_sub for parent department: FCO-F_sub_sub
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F_sub_sub_sub
+2025-01-01 16:30:39 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: HH
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: test.xog.xml
+2025-01-01 16:30:39 [main] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: test.xog.xml
+2025-01-01 16:30:39 [main] INFO  org.example.controller.CSVToXOGXMLController - XOG XML successfully generated and saved to test.xog.xml
+2025-01-01 16:30:39 [main] INFO  org.example.Main - CSV processing completed successfully
+2025-01-01 16:30:39 [main] INFO  org.example.Main - Application finished
+2025-01-01 17:04:54 [main] INFO  org.example.Main - Application started
+2025-01-01 17:04:54 [main] DEBUG org.example.Main - Initializing CSVToXOGXMLService
+2025-01-01 17:04:54 [main] DEBUG org.example.Main - Injecting service into CSVToXOGXMLController
+2025-01-01 17:04:54 [main] INFO  org.example.Main - Using CSV file: test.csv
+2025-01-01 17:04:54 [main] INFO  org.example.controller.CSVToXOGXMLController - Starting CSV to XOG XML conversion for file: test.csv
+2025-01-01 17:04:54 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: test.csv
+2025-01-01 17:04:54 [main] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2025-01-01 17:04:54 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2025-01-01 17:04:54 [main] INFO  org.example.service.CSVToXOGXMLService - Reading lines from input stream.
+2025-01-01 17:04:55 [main] DEBUG org.example.service.CSVToXOGXMLService - Read 1 lines from input stream.
+2025-01-01 17:04:55 [main] ERROR org.example.controller.CSVToXOGXMLController - An error occurred during CSV processing
+java.lang.IllegalArgumentException: CSV file must have a header and at least one data row.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321) ~[groovy-4.0.14.jar:4.0.14]
+	at org.example.service.CSVToXOGXMLService.validateCSVContent(CSVToXOGXMLService.groovy:64) ~[main/:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321) ~[groovy-4.0.14.jar:4.0.14]
+	at org.example.service.CSVToXOGXMLService.readCSV(CSVToXOGXMLService.groovy:24) ~[main/:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321) [groovy-4.0.14.jar:4.0.14]
+	at org.example.controller.CSVToXOGXMLController.processCSV(CSVToXOGXMLController.groovy:21) [main/:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321) [groovy-4.0.14.jar:4.0.14]
+	at org.example.Main.main(Main.groovy:28) [main/:?]
+2025-01-01 17:04:55 [main] INFO  org.example.Main - CSV processing completed successfully
+2025-01-01 17:04:55 [main] INFO  org.example.Main - Application finished
+2025-01-01 17:05:34 [main] INFO  org.example.Main - Application started
+2025-01-01 17:05:34 [main] DEBUG org.example.Main - Initializing CSVToXOGXMLService
+2025-01-01 17:05:34 [main] DEBUG org.example.Main - Injecting service into CSVToXOGXMLController
+2025-01-01 17:05:34 [main] INFO  org.example.Main - Using CSV file: test.csv
+2025-01-01 17:05:34 [main] INFO  org.example.controller.CSVToXOGXMLController - Starting CSV to XOG XML conversion for file: test.csv
+2025-01-01 17:05:34 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file path validated: test.csv
+2025-01-01 17:05:34 [main] DEBUG org.example.service.CSVToXOGXMLService - Locating CSV file: test.csv
+2025-01-01 17:05:34 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV file found: test.csv
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Reading lines from input stream.
+2025-01-01 17:05:34 [main] DEBUG org.example.service.CSVToXOGXMLService - Read 17 lines from input stream.
+2025-01-01 17:05:34 [main] DEBUG org.example.service.CSVToXOGXMLService - CSV content validated with 17 rows.
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 11 departments from CSV.
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 11 departments
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2025-01-01 17:05:34 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: CCA for parent department: C
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: CCA
+2025-01-01 17:05:34 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Compliance &amp
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: CCM for parent department: C
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: CCM
+2025-01-01 17:05:34 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Communications
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: CHR for parent department: C
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: CHR
+2025-01-01 17:05:34 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate HR
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: F
+2025-01-01 17:05:34 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Finance
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: FAN for parent department: F
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FAN
+2025-01-01 17:05:34 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Accounting
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: FCO for parent department: F
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO
+2025-01-01 17:05:34 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate Controlling
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: FCO-F for parent department: FCO
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F
+2025-01-01 17:05:34 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Central Financial Controlling
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F_sub
+2025-01-01 17:05:34 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: SYU
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: FCO-F_sub_sub for parent department: FCO-F_sub
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F_sub_sub
+2025-01-01 17:05:34 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: GH
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Found sub-department: FCO-F_sub_sub_sub for parent department: FCO-F_sub_sub
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: FCO-F_sub_sub_sub
+2025-01-01 17:05:34 [main] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: HH
+2025-01-01 17:05:34 [main] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2025-01-01 17:05:35 [main] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: test.xog.xml
+2025-01-01 17:05:35 [main] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: test.xog.xml
+2025-01-01 17:05:35 [main] INFO  org.example.controller.CSVToXOGXMLController - XOG XML successfully generated and saved to test.xog.xml
+2025-01-01 17:05:35 [main] INFO  org.example.Main - CSV processing completed successfully
+2025-01-01 17:05:35 [main] INFO  org.example.Main - Application finished
+2025-01-01 18:01:11 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XOG XML for 1 departments
+2025-01-01 18:01:11 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Generating XML for department: C
+2025-01-01 18:01:11 [Test worker] DEBUG org.example.service.CSVToXOGXMLService - Added Description for department: Corporate
+2025-01-01 18:01:11 [Test worker] INFO  org.example.service.CSVToXOGXMLService - XOG XML generation completed
+2025-01-01 18:01:53 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: C:\Users\Apurupa\AppData\Local\Temp\test_output5648792367649759152.xml
+2025-01-01 18:01:53 [Test worker] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: C:\Users\Apurupa\AppData\Local\Temp\test_output5648792367649759152.xml
+2025-01-01 18:02:24 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Saving XOG XML to file: C:\Users\Apurupa\AppData\Local\Temp\test_output18445871961317514133.xml
+2025-01-01 18:02:24 [Test worker] INFO  org.example.service.CSVToXOGXMLService - File saved successfully: C:\Users\Apurupa\AppData\Local\Temp\test_output18445871961317514133.xml
+2025-01-01 18:03:18 [Test worker] INFO  org.example.service.CSVToXOGXMLService - Successfully parsed 2 departments from CSV.

@@ -33,14 +33,6 @@ class CSVToXOGXMLController {
             logger.error("An error occurred during CSV processing", e)
         }
     }
-
-    static void main(String[] args) {
-        CSVToXOGXMLService service = new CSVToXOGXMLService()
-        CSVToXOGXMLController controller = new CSVToXOGXMLController(service)
-
-        String csvFile = args.length > 0 ? args[0] : "test.csv"
-        controller.processCSV(csvFile)
-    }
 }
 
 

@@ -18,9 +18,20 @@ class Department {
         this.parent_department_code = attributes['parent_department_code']
     }
 
-    // Optionally, you can add a method to help with debugging or displaying information
+    // Additional constructor for direct parameters
+    Department(String department_code, String dept_manager_code, String entity, String short_description, String locationcode, String parent_department_code) {
+        this.department_code = department_code
+        this.dept_manager_code = dept_manager_code
+        this.entity = entity
+        this.short_description = short_description
+        this.locationcode = locationcode
+        this.parent_department_code = parent_department_code
+    }
+
     String toString() {
         return "Department[department_code: $department_code, dept_manager_code: $dept_manager_code, entity: $entity, " +
                 "short_description: $short_description, locationcode: $locationcode, parent_department_code: $parent_department_code]"
     }
 }
+
+

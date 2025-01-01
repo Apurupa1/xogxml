@@ -21,8 +21,8 @@ class Main {
             CSVToXOGXMLController controller = new CSVToXOGXMLController(service)
 
             // Determine CSV file
-            String csvFile = args.length > 0 ? args[0] : "test.csv"
-            logger.info("Using CSV file: {}", csvFile)
+            String csvFile = "test.csv";
+            logger.info("Using CSV file: {}", csvFile);
 
             // Process the CSV
             controller.processCSV(csvFile)

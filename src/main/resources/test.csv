@@ -1,3 +1,17 @@
-Ignore,	ID,	dept_manager_code,	entity,	Name,	locationcode,	ParentDepartmentID
+Ignore,ID,dept_manager_code,entity,Name,locationcode,ParentDepartmentID
 ,C,,,Corporate,,
 ,CCA,,,Corporate Compliance &amp,,C
+,CCM,,,Corporate Communications,,C
+,CHR,,,Corporate HR,,C
+#,CHR-D,,,Corporate HR Development,,CHR
+,F,,,Finance,,
+,FAN,,,Corporate Accounting,,F
+#,FAN-G,,,Group Accounting,,FAN
+#,FAN-PX,,,Processes & Systems,,FAN
+#,FAN-SV,,,Accounting Shared Service Center,,FAN
+,FCO,,,Corporate Controlling,,F
+,FCO-F,,,Central Financial Controlling,,FCO
+,FCO-F_sub,,,SYU,,FCO_F
+,FCO-F_sub_sub,,,GH,,FCO-F_sub
+,FCO-F_sub_sub_sub,,,HH,,FCO-F_sub_sub
+#,FCO-G,,,Group Controlling,,FCO

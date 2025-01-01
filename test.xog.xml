@@ -46,24 +46,24 @@
           <LocationAssociations>
             <LocationAssociation locationcode='DE' />
           </LocationAssociations>
-          <Department department_code='FCO-F_sub' dept_manager_code='admin' entity='Corporate' short_description='SYU'>
-            <Description>SYU</Description>
-            <LocationAssociations>
-              <LocationAssociation locationcode='DE' />
-            </LocationAssociations>
-            <Department department_code='FCO-F_sub_sub' dept_manager_code='admin' entity='Corporate' short_description='GH'>
-              <Description>GH</Description>
-              <LocationAssociations>
-                <LocationAssociation locationcode='DE' />
-              </LocationAssociations>
-              <Department department_code='FCO-F_sub_sub_sub' dept_manager_code='admin' entity='Corporate' short_description='HH'>
-                <Description>HH</Description>
-                <LocationAssociations>
-                  <LocationAssociation locationcode='DE' />
-                </LocationAssociations>
-              </Department>
-            </Department>
-          </Department>
+        </Department>
+      </Department>
+    </Department>
+    <Department department_code='FCO-F_sub' dept_manager_code='admin' entity='Corporate' short_description='SYU'>
+      <Description>SYU</Description>
+      <LocationAssociations>
+        <LocationAssociation locationcode='DE' />
+      </LocationAssociations>
+      <Department department_code='FCO-F_sub_sub' dept_manager_code='admin' entity='Corporate' short_description='GH'>
+        <Description>GH</Description>
+        <LocationAssociations>
+          <LocationAssociation locationcode='DE' />
+        </LocationAssociations>
+        <Department department_code='FCO-F_sub_sub_sub' dept_manager_code='admin' entity='Corporate' short_description='HH'>
+          <Description>HH</Description>
+          <LocationAssociations>
+            <LocationAssociation locationcode='DE' />
+          </LocationAssociations>
         </Department>
       </Department>
     </Department>
